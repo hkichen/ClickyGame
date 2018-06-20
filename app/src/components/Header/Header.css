@@ -1,0 +1,8 @@
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: rgb(145, 0, 182);
+  margin-bottom: 20px;
+}

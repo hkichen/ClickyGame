@@ -1,6 +1,13 @@
-import React from "react";
-import Nav from "./components/nav";
+import React, { Component } from "react";
+import MemoryCard from "./components/MemoryCard";
+import Wrapper from "./components/Wrapper";
+import Nav from "./components/Nav";
+import princesses from "./princesses.json";
+import "./App.css";
 
-const App = () => <Nav />;
+class App extends Component {
+  render() 
+
+}
 
 export default App;

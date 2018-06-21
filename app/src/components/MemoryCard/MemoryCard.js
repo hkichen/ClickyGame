@@ -3,8 +3,8 @@ import "./MemoryCard.css";
 
 const MemoryCard = props => (
   <div className='card'>
-    <div className='img-container'>
-      <span onClick={() => props.changeStatus(props.clicked)}> <img alt={props.name} src={props.image} /> </span>
+    <div className='img-container' onClick={props.handleClick}>
+      <img alt={props.name} src={props.image} />
     </div>
   </div>
 )

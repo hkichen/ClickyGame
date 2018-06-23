@@ -2,11 +2,10 @@ import React from "react";
 import "./Header.css";
 
 const Header = props => (
-  <div className="header">
-    <h1>The Memory Game</h1>
-    {props.children}
+  <div className="gameScore">
+    <h3 className="score">Your Score: {props.total} || High Score: {props.highscore}</h3>
+    <h3 className="status">{props.status}</h3>
   </div>
 );
-
 
 export default Header;

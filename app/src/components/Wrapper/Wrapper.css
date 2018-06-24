@@ -1,6 +1,6 @@
 .wrapper {
   padding-top: 50px;
-  background: rgb(39, 72, 95);
+  background: linear-gradient(to bottom, rgb(0, 0, 7), rgb(57, 36, 95),  rgb(161, 129, 219));
   height: 100%;
   display: flex;
   flex-flow: row wrap;

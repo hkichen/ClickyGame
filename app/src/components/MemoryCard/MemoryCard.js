@@ -2,11 +2,11 @@ import React from "react";
 import "./MemoryCard.css";
 
 const MemoryCard = props => (
-  <div className='card'>
-    <div className='img-container' onClick={() => props.shuffleCards(props.name)}>
+  <div className="card" onClick={() => props.clickCount(props.id)}>
+    <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
   </div>
-)
+);
 
 export default MemoryCard;

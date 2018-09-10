@@ -7,4 +7,4 @@ The Princess Memory Game is a web game application where users click images of p
 React.js
 Bootstrap
 
-#The game can be found on Heroku [here](https://www.google.com).
+#The game can be found on Heroku [here](https://glacial-plateau-55758.herokuapp.com/).
